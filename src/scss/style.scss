@@ -30,8 +30,13 @@ body {
   padding-right: env(safe-area-inset-right);
 }
 
-.container {
-  width: 100px;
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 // Fix rounded buttons in MDBootstrap v4.5 and above
@@ -42,4 +47,38 @@ html [type='button'],
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__container {
+  width: 940px;
+
+  .header-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 33px;
+  }
+
+  .header-nav::after {
+    content: '';
+    padding-top: 33px;
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+
+  .nav-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &__item {}
+
+    &__link {}
+  }
 }
