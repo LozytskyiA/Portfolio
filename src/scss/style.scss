@@ -24,10 +24,13 @@ $image-path: '~mdbootstrap/img' !default;
 // @import '~mdbootstrap/scss/addons-pro/steppers';
 // @import '~mdbootstrap/scss/addons-pro/timeline';
 
+@import './fonts.scss';
+
 // iPhone X "notch" fuckery
 body {
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
+  font-family: 'Gilroy-medium', sans-serif;
 }
 
 li {
@@ -62,12 +65,15 @@ html [type='button'],
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-top: 33px;
+    font-size: 18px;
+    margin-bottom: 39px;
   }
 
   .header-nav::after {
     content: '';
-    padding-top: 33px;
+    padding-top: 27px;
     border-bottom: 1px solid black;
     width: 100%;
   }
@@ -77,8 +83,16 @@ html [type='button'],
     display: flex;
     justify-content: space-between;
 
-    &__item {}
+    &__item {
+      color: #828282;
+    }
 
-    &__link {}
+    &__link {
+      color: #828282;
+
+      &:hover {
+        color: #000000;
+      }
+    }
   }
 }
