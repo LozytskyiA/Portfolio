@@ -42,6 +42,7 @@ ul {
   padding: 0;
 }
 
+
 // Fix rounded buttons in MDBootstrap v4.5 and above
 button,
 html [type='button'],
@@ -94,5 +95,39 @@ html [type='button'],
         color: #000000;
       }
     }
+  }
+}
+
+.header-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+
+  &__name {
+    font-family: 'Gilroy-bold', sans-serif;
+    font-size: 47.34px;
+    margin: 0;
+    padding: 0;
+    line-height: 57px;
+  }
+
+  &__position {
+    display: flex;
+    flex-direction: column;
+    margin-top: 56px;
+  }
+
+  &__language {
+    transform: rotate(-90deg);
+    margin-right: -24px;
+    margin-bottom: -30px;
+    font-family: 'Gilroy-bold', sans-serif;
+    text-transform: uppercase;
+    color: #828282;
+  }
+
+  .tittle-language__item:hover {
+    color: #000000
   }
 }
