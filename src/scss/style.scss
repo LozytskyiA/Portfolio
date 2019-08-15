@@ -125,6 +125,7 @@ html [type='button'],
     font-family: 'Gilroy-bold', sans-serif;
     text-transform: uppercase;
     color: #828282;
+    cursor: pointer;
   }
 
   .tittle-language__item:hover {
@@ -177,8 +178,93 @@ html [type='button'],
   text-align: center;
 }
 
-.main__title {
+.skills__title {
   font-family: 'Gilroy-bold', sans-serif;
   font-size: 34px;
-  margin-bottom: 30px;
+  margin-bottom: 69px;
+}
+
+.skills__text {
+  font-size: 18px;
+  margin-bottom: 83px;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  &__item {
+    display: block;
+
+    &_delay1 {
+      animation-delay: .2s
+    }
+
+    &_delay2 {
+      animation-delay: .4s
+    }
+
+    &_delay3 {
+      animation-delay: .6s
+    }
+
+    &_delay4 {
+      animation-delay: .8s
+    }
+  }
+}
+
+.item__img {
+  margin-bottom: 25px;
+}
+
+.item__text {
+  font-size: 14px;
+  color: #828282;
+  margin-bottom: 40px;
+}
+
+.skill__rating {
+  display: flex;
+}
+
+.rating__star {
+  margin-right: 9px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.main__portfolio {
+  padding-top: 112px;
+  text-align: center;
+}
+
+.portfolio-list__item {
+  margin-bottom: 99px;
+}
+
+.portfolio__title {
+  margin-bottom: 47px;
+}
+
+.portfolio__img {
+  margin-bottom: 45px;
+
+  &:hover {
+    opacity: .6;
+    cursor: pointer;
+    transition: .4s;
+  }
+}
+
+.portfolio__link {
+  color: #000000;
+  font-size: 18px;
+
+  &:hover {
+    color: #828282;
+  }
 }
