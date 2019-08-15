@@ -131,3 +131,54 @@ html [type='button'],
     color: #000000
   }
 }
+
+.header-content__img {
+  margin-bottom: 107px;
+}
+
+.main__wrapper {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 88px;
+}
+
+.main__container {
+  width: 940px;
+}
+
+.main__about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 103.5px 0;
+}
+
+.about__title {
+  font-family: 'Gilroy-bold', sans-serif;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.about__item {
+  margin-bottom: 40px;
+  font-size: 18px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.main__wrapper_white {
+  background-color: #fff;
+}
+
+.main__skills {
+  text-align: center;
+}
+
+.main__title {
+  font-family: 'Gilroy-bold', sans-serif;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
