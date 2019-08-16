@@ -25,6 +25,7 @@ $image-path: '~mdbootstrap/img' !default;
 // @import '~mdbootstrap/scss/addons-pro/timeline';
 
 @import './fonts.scss';
+@import './media.scss';
 
 // iPhone X "notch" fuckery
 body {
@@ -42,6 +43,9 @@ ul {
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
 
 // Fix rounded buttons in MDBootstrap v4.5 and above
 button,
@@ -54,13 +58,13 @@ html [type='button'],
 }
 
 .header__wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .header__container {
-  width: 940px;
+  width: 100%;
 
   .header-nav {
     display: flex;
@@ -83,9 +87,15 @@ html [type='button'],
     width: 100%;
     display: flex;
     justify-content: space-between;
+    font-family: 'Gilroy-bold', sans-serif;
 
     &__item {
       color: #828282;
+      flex: 82px 0 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
     }
 
     &__link {
@@ -131,10 +141,15 @@ html [type='button'],
   .tittle-language__item:hover {
     color: #000000
   }
+
+  .tittle-language__item_eng {
+    color: #000000
+  }
 }
 
 .header-content__img {
   margin-bottom: 107px;
+  max-width: 950px;
 }
 
 .main__wrapper {
@@ -142,6 +157,7 @@ html [type='button'],
   display: flex;
   justify-content: center;
   margin-bottom: 88px;
+  padding: 0 16px;
 }
 
 .main__container {
@@ -192,10 +208,16 @@ html [type='button'],
 .skill-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   text-align: center;
 
   &__item {
-    display: block;
+    margin-bottom: 70px;
+    text-align: center;
+
+    &:last-child {
+      margin-right: 0;
+    }
 
     &_delay1 {
       animation-delay: .2s
@@ -227,6 +249,7 @@ html [type='button'],
 
 .skill__rating {
   display: flex;
+  justify-content: center;
 }
 
 .rating__star {
@@ -273,6 +296,7 @@ html [type='button'],
   display: flex;
   justify-content: center;
   margin: 114px 0 124px;
+  padding: 0 16px;
 }
 
 .footer__container {

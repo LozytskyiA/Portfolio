@@ -1,0 +1,10 @@
+@media (max-width: 940px) {
+
+  .skill-list {
+    justify-content: center;
+
+    &__item {
+      flex: 300px 1 1;
+    }
+  }
+}
