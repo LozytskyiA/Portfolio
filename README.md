@@ -1,3 +1,3 @@
 # Portfolio
 
-[Preview] - [https://laliquenoare.github.io/portfolio/]
+[Preview] - [https://laliquenoare.github.io/Portfolio/]
