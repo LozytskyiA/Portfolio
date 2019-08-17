@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[45],{ucYh:function(e,n){var a="undefined"!=typeof requestIdleCallback;e.exports=a?requestIdleCallback:function(e){return setTimeout(function(){var n=Date.now();e({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-n))}})},1)},e.exports.cancelIdleCallback=a?cancelIdleCallback:clearTimeout}}]);
+//# sourceMappingURL=npm.ric-shim.f223a36ed03fbac48e9a.js.map

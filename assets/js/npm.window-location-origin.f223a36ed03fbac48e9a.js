@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[54],{rTV3:function(o,n){!function(o){"use strict";if(!o.origin){var n=o.protocol+"//"+o.hostname+(o.port&&":"+o.port);try{Object.defineProperty(o,"origin",{enumerable:!0,value:n})}catch(i){o.origin=n}}}(window.location)}}]);
+//# sourceMappingURL=npm.window-location-origin.f223a36ed03fbac48e9a.js.map

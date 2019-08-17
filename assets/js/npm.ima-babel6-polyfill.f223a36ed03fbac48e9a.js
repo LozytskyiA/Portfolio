@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{szxn:function(t,o){!function(){if(!Object.setPrototypeOf&&!{}.__proto__){var t=Object.getPrototypeOf;Object.getPrototypeOf=function(o){return o.__proto__?o.__proto__:t.call(Object,o)}}}()}}]);
+//# sourceMappingURL=npm.ima-babel6-polyfill.f223a36ed03fbac48e9a.js.map
