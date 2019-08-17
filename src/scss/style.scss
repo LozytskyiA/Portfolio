@@ -57,6 +57,8 @@ html [type='button'],
   appearance: none;
 }
 
+// HEADER //
+
 .header__wrapper {
   max-width: 940px;
   margin: 0 auto;
@@ -87,7 +89,6 @@ html [type='button'],
     width: 100%;
     display: flex;
     justify-content: space-between;
-    font-family: 'Gilroy-bold', sans-serif;
 
     &__item {
       color: #828282;
@@ -151,6 +152,8 @@ html [type='button'],
   margin-bottom: 107px;
   max-width: 950px;
 }
+
+// MAIN //
 
 .main__wrapper {
   background-color: #f6f6f6;
@@ -291,6 +294,8 @@ html [type='button'],
     color: #828282;
   }
 }
+
+// FOOTER //
 
 .footer__wrapper {
   display: flex;
